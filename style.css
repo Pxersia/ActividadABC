@@ -82,11 +82,16 @@ body {
     align-items: center;
 }
 
-/* COLORES */
-.azul {
-    color: blue;
-}
+/* INPUT */
+#buscador {
 
-.verde {
-    color: green;
+    width: 350px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    border: 3px solid black;
+
+    font-size: 16px;
 }
