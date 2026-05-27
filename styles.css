@@ -1,0 +1,6 @@
+.border-image {
+  border: 5px solid black;   /* borde visible */
+  border-radius: 10px;       /* esquinas redondeadas */
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
