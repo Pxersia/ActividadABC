@@ -5,7 +5,6 @@ body {
 }
 
 .icons {
-
     display: grid;
     grid-template-columns: repeat(3, 250px);
     justify-content: center;
@@ -15,7 +14,6 @@ body {
 
 /* TARJETAS */
 .item {
-
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -24,7 +22,6 @@ body {
 
 /* TITULOS */
 .item h3 {
-
     width: 100%;
     height: 70px;
     border: 3px solid black;
@@ -39,59 +36,61 @@ body {
 
 /* IMAGENES */
 .item img {
-
     width: 200px;
-
     height: 200px;
-
     object-fit: cover;
-
     border: 5px solid black;
-
     border-radius: 10px;
-
     transition: 0.3s;
 }
 
 .item img:hover {
-
     transform: scale(1.1);
-
     border-color: red;
 }
 
 /* TEXTO INFERIOR */
 .item figcaption {
-
     width: 100%;
-
     height: 50px;
-
     border: 3px solid black;
-
     border-radius: 10px;
-
     background-color: white;
-
     margin-top: 15px;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 }
 
 /* INPUT */
 #buscador {
-
     width: 350px;
-
     padding: 12px;
-
     border-radius: 10px;
-
     border: 3px solid black;
-
     font-size: 16px;
+}
+
+/* HEADER */
+header {
+    background-color: #333;
+    padding: 15px 20px;
+    display: flex;              /* activa flexbox */
+    justify-content: center;    /* centra todo el contenido */
+    align-items: center;
+    gap: 20px;                  /* espacio entre enlaces y buscador */
+    position: sticky;           /* se pega arriba al hacer scroll */
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #00bfff;
 }

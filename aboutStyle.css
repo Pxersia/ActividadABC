@@ -1,0 +1,62 @@
+/* HEADER */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #00bfff;
+}
+
+/* FONDO GENERAL */
+body {
+    background-color: gray;   /* fondo gris en toda la página */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* SECCIÓN SOBRE NOSOTROS */
+/* SECCIÓN SOBRE NOSOTROS */
+.sobre-nosotros {
+    background-color: gray;   /* fondo gris de la página */
+    max-width: 800px;         /* ancho máximo para centrar */
+    margin: 50px auto;        /* centra horizontalmente */
+    padding: 30px;
+    text-align: center;       /* centra título y texto */
+    color: black;             /* letras negras */
+    
+    /* RECUDRO */
+    border: 3px solid black;  /* borde negro alrededor */
+    border-radius: 10px;      /* esquinas redondeadas */
+}
+
+
+.sobre-nosotros h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sobre-nosotros p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.sobre-nosotros img {
+    margin-top: 20px;       /* espacio respecto al párrafo */
+    max-width: 500px;       /* tamaño máximo */
+    width: 200%;            /* se adapta al contenedor */
+    border-radius: 10px;    /* esquinas redondeadas */
+    display: block;         /* asegura que se comporte como bloque */
+    margin-left: auto;      /* centra horizontalmente */
+    margin-right: auto;
+}
