@@ -1,0 +1,92 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.icons {
+
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* TARJETAS */
+.item {
+
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TITULOS */
+.item h3 {
+
+    width: 100%;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* IMAGENES */
+.item img {
+
+    width: 200px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border: 5px solid black;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.item img:hover {
+
+    transform: scale(1.1);
+
+    border-color: red;
+}
+
+/* TEXTO INFERIOR */
+.item figcaption {
+
+    width: 100%;
+
+    height: 50px;
+
+    border: 3px solid black;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    margin-top: 15px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* COLORES */
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
