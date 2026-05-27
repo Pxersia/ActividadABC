@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado con enlaces</title>
+    <!-- Conexión al archivo CSS externo -->
+    <link rel="stylesheet" href="contactStyle.css">
+</head>
+    <header>
+        <a href="index.html">Inicio</a>
+        <a href="aboutUs.html">Sobre Nosotros</a>
+        <a href="contactUs.html">Contacto</a>
+    </header>
+            <section class="contact-section">
+                <h2>Contacto</h2>
+
+                <form class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <input type="email" name="email" class="form-control" placeholder="Tu correo" required>
+                    </div>
+
+                    <div class="col-12">
+                        <textarea name="mensaje" rows="4" class="form-control" placeholder="Tu mensaje..." required></textarea>
+                    </div>
+
+                    <div class="col-12 text-end">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </section>
+</html>
