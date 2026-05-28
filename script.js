@@ -34,3 +34,21 @@ window.addEventListener('load', ajustarTextoImagen);
 
 // Ajusta también si la ventana cambia de tamaño
 window.addEventListener('resize', ajustarTextoImagen);
+
+// Capturamos el input y los items
+const buscador = document.getElementById("buscador");
+const items = document.querySelectorAll(".item");
+
+buscador.addEventListener("keyup", function() {
+  const filtro = buscador.value.toLowerCase();
+
+  items.forEach(item => {
+    const texto = item.textContent.toLowerCase();
+    // Si el texto contiene lo que escribió el usuario, se muestra
+    if (texto.includes(filtro)) {
+      item.style.display = "";
+    } else {
+      item.style.display = "none";
+    }
+  });
+});
