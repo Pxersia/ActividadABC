@@ -27,12 +27,12 @@ body {
 /* SECCIÓN SOBRE NOSOTROS */
 /* SECCIÓN SOBRE NOSOTROS */
 .sobre-nosotros {
-    background-color: gray;   /* fondo gris de la página */
+    background-color: rgb(165, 169, 172);   /* fondo del cuadro de texto */
     max-width: 800px;         /* ancho máximo para centrar */
     margin: 50px auto;        /* centra horizontalmente */
     padding: 30px;
     text-align: center;       /* centra título y texto */
-    color: black;             /* letras negras */
+    color: rgb(50, 52, 56);             /* letras del cuadro de texto */
     
     /* RECUDRO */
     border: 3px solid black;  /* borde negro alrededor */
