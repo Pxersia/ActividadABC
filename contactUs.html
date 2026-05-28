@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactStyle.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">Inicio</a>
+        <a href="aboutUs.html">Sobre Nosotros</a>
+        <a href="contactUs.html">Contacto</a>
+    </header>
+
+    <!-- INFORMACIÓN DE CONTACTO -->
+    <section class="contactanos">
+        <h1>Contacto</h1>
+
+        <!-- Texto introductorio con clase propia -->
+        <p class="intro-text">
+            Si tienes alguna pregunta, comentario o necesitas más información, no dudes en contactarnos. 
+            Estamos aquí para ayudarte y responder a tus inquietudes. Puedes enviarnos un correo electrónico o llamarnos directamente. 
+            ¡Esperamos saber de ti pronto!
+        </p>
+
+        <div>
+            <h3>Correos electrónicos</h3>
+            <p>grupoabc1@fake.com</p>
+            <p>equipoabc2@fake.com</p>
+
+            <h3>Teléfonos</h3>
+            <p>+56 9 1111 2222</p>
+            <p>+56 9 3333 4444</p>
+        </div>
+
+        <div>
+            <h3>Solicitud</h3>    
+            <p>
+                Si tienes alguna pregunta, comentario o necesitas más información, puedes dejar tu información de contacto a continuación
+                y nos pondremos en contacto contigo lo antes posible. ¡Esperamos saber de ti pronto!
+            </p>
+        </div>
+
+        <form class="row g-3">
+            <input type="text" name="nombre" class="form-control" placeholder="Tu nombre" required>
+            <input type="email" name="email" class="form-control" placeholder="Tu correo" required>
+            <textarea name="mensaje" rows="4" class="form-control" placeholder="Tu mensaje..." required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+            <img src="https://img.freepik.com/fotos-premium/pongase-contacto-nosotros-o-linea-directa-atencion-al-cliente-personas-conectan-cierre-hombre-negocios-sosteniendo-tableta-usando-dispositivo-contactar-personas-o-informacion-contacto-negocio-contactenos_256259-3378.jpg" alt="Imagen de contacto" class="contactanos-image">
+        </form>
+    </section>
+</body>
+</html>
