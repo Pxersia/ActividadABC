@@ -104,6 +104,16 @@ body {
     display: block;
 }
 
+.contactanos h5:hover{
+    color: #00bfff;
+
+}
+
+.contactanos h3{
+    color:green
+}
+
+
 /* Footer */
 
 .footer {
