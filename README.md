@@ -42,11 +42,7 @@ Este proyecto es una actividad de aprendizaje donde se creó una página web con
 ## Colaboradores
 
 Proyecto desarrollado en equipo como parte de una actividad académica.
--Denisse Labraña Hernandez
--Benjamin Conmtreras Gómez
--Ariel Wu Troncoso
--Elvis Bracho Vargas
--Catalina Zuñiga Bustos
+
 
 ---
 
